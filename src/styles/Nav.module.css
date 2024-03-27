@@ -1,0 +1,101 @@
+div.navW {
+  @apply flex lg:px-20 px-4 w-full justify-center items-center shadow-black shadow-md bg-primary_bg bg-opacity-50 h-20 fixed top-0 z-10 backdrop-blur-[5px]
+  }
+div.disappear{
+  @apply -top-[5rem]
+}
+ .navW img{
+  @apply w-[4rem] h-[4rem]
+  }
+div.visisble{
+  @apply h-[5rem]
+}
+
+div.hide{
+  @apply h-[0rem] overflow-hidden
+}
+  .navW .grow{
+    @apply flex-grow-[1]
+  }
+  .navW .navR{
+      @apply flex lg:space-x-12 space-x-0 lg:space-y-0 space-y-8 lg:flex-row flex-col items-center justify-center lg:relative absolute top-0 lg:left-0 left-[30%] lg:bg-transparent bg-primary_bg2 lg:px-0 px-10 lg:pt-0 lg:h-max h-screen lg:w-max w-[70%] z-20
+  }
+  .navW .active{
+    @apply lg:left-0 left-full 
+  }
+  .navR .each a{
+    @apply flex lg:flex-row md:flex-row flex-col gap-1 items-center
+  }
+  .navR .each{
+    @apply text-blur_texts hover:text-primary1 cursor-pointer
+  }
+  .navR .each span{
+    @apply text-primary1 
+  }
+  .navR .each span,
+   .navR .each p{
+    font-family: 'SF Mono', monospace;;
+    @apply text-[13px] hover:text-primary1
+   }
+  .navW .resume{
+    @apply  bg-primary1 flex justify-center items-center px-2 py-1.5 cursor-pointer lg:lg:w-[5rem] lg:h-[2.3rem] h-[2.8rem] w-[8rem] rounded-md relative text-[13px] leading-[20px]
+  }
+  .navW .resume::before{
+    @apply  content-['Resume'] lg:w-[5rem] lg:h-[2.3rem] h-[2.8rem] w-[8rem] absolute bg-primary_bg border-[1px] border-primary1 rounded-md bottom-0 right-0 hover:bottom-1 hover:right-1  grid place-items-center transition-all duration-300 ease-in-out text-primary1
+  }
+
+ .navHarmburger{
+    @apply lg:hidden relative right-4 flex flex-col  space-y-2  items-end z-30
+  }
+
+  .navHarmburger p{
+    @apply h-[2px] bg-primary1 w-6 rounded-full origin-center duration-200
+  }
+
+  .navHarmburger p:first-child{
+    @apply w-10 rotate-[0]
+    
+  }
+
+.navHarmburger p:nth-child(2){
+    @apply w-8 rotate-[-0]
+  }
+.navHarmburger p:nth-child(3){
+  @apply h-[2px]
+  
+}
+
+.activeHarmburger{
+  @apply gap-0 space-y-0
+}
+  .activeHarmburger p{
+    @apply absolute
+  }
+ .activeHarmburger  p:first-child{
+  @apply w-8 rotate-[135deg] 
+  
+}
+
+.activeHarmburger  p:nth-child(2){
+  @apply w-8 rotate-[-135deg]
+}
+.activeHarmburger  p:nth-child(3){
+@apply rotate-[-135deg] hidden h-0
+} 
+
+.overlay{
+  @apply fixed lg:hidden h-screen w-full top-0 left-0 shadow-black shadow-lg z-10 block 
+  
+}
+
+.activeOverlay{
+  @apply opacity-0 hidden
+}
+
+.logus p{
+  /* font-family: Arial, sans-serif; */
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  
+}
+
+  /* transform: matrix(0,-1,-1,0,0,0); */

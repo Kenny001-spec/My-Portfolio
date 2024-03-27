@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    font-family: 'SF Mono', monospace;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace; 
+
+    @apply p-0 m-0 box-border text-blur_texts transition-all ease-linear duration-300 scroll-smooth
+}
+*::selection{
+    @apply bg-blur_texts text-var_color bg-opacity-30
+    }
+.body{
+    @apply min-h-[100vh] w-full bg-repeat bg-primary_bg overflow-x-clip
+}
+body::-webkit-scrollbar{
+    @apply lg:w-[6px] bg-primary_bg2 
+}
+body::-webkit-scrollbar-thumb{
+    @apply bg-blur_texts rounded-full 
+}
+main{
+    /* background-image: linear-gradient(115deg, rgba(17, 34, 64, 0.5),rgba(17, 34, 64, 0.6), url("/arrowdown2.png")); */
+    @apply overflow-auto w-full bg-[url("/arrowdown3.png")] bg-fixed
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.Wrapper{
+    @apply lg:w-[75%] w-full lg:px-0 px-5 h-auto m-auto 
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* http://bit.ly/Intel-Abdul */
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
