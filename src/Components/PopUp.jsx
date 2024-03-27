@@ -37,7 +37,7 @@ export default function PopUp() {
 
           <div className="whatsapp flex gap-4 mt-8 justify-start items-center">
             <a
-              href="mailto:Uthmanabdullahi2020@gmail.com?subject=Let%20do%20something%20together&body="
+              href="mailto:abubakarkehinde88@gmail.com?subject=Let%20do%20something%20together&body="
               className=""
             >
               <div
@@ -46,7 +46,7 @@ export default function PopUp() {
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=2349135619423&text=Hi%20Abdullahi!"
+              href="https://api.whatsapp.com/send?phone=2348162263500&text=Hi%20Kehinde!"
               target="blank"
               rel="noopener noreferrer"
               className="block w-[6.5rem] h-[2.5rem] bg-primary1 rounded-md relative "
@@ -58,13 +58,13 @@ export default function PopUp() {
           </div>
 
           <div className="email flex gap-4 mt-8 justify-start items-center">
-            <a href="mailto:Uthmanabdullahi2020@gnail.com?subject=Let%20do%20something%20together&body=">
+            <a href="mailto:abubakarkehinde88@gnail.com?subject=Let%20do%20something%20together&body=">
               <div
                 className={` bg-[url("/mail-line.png")] hover:bg-[url("/mail-lineh.png")] w-6 h-6 gird place-content-center`}
               ></div>
             </a>
             <a
-              href="mailto:Uthmanabdullahi2020@gnail.com?subject=Let%20do%20something%20together&body="
+              href="mailto:abubakarkehinde88@gnail.com?subject=Let%20do%20something%20together&body="
               target="blank"
               className="block w-[6.5rem] h-[2.5rem] bg-primary1 rounded-md relative "
             >

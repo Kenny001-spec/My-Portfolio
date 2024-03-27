@@ -23,7 +23,7 @@ const About = () => {
             </b>
             I'm an enthusiastic software developer with a solid background in
             crafting innovative and effective solutions. Over the past year in
-            the field, I've sharpened my skills in JavaScript programming
+            the field, i've sharpened my skills in JavaScript programming
             language, frameworks
           </p>
           <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">

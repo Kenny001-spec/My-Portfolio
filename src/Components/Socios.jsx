@@ -6,37 +6,30 @@ import 'aos/dist/aos.css';
 const Socios = () => {
   const socioArr = [
     {
-      link: "https://github.com/intelligence247",
+      link: "https://github.com/Kenny001-spec",
       ima1 : `bg-[url("/github-line.png")]`,
       ima2 : `hover:bg-[url("/github-lineh.png")]`,
       alter : 'Github icon'
       
     },
     {
-      link: "https://twitter.com/I_n_telligence",
+      link: "https://twitter.com/kennySpec",
       ima1 : `bg-[url("/twitter-line.png")]`,
       ima2 : `hover:bg-[url("/twitter-lineh.png")]`,
       alter : "Twitter icon"
     },
     {
-      link: "https://www.linkedin.com/in/usman-abdullahi-125a3a23b/",
+      link: "https://www.linkedin.com/in/kehinde-abubakar-029223252/",
       ima1 : `bg-[url("/linkedin-fill.png")]`,
       ima2 : `hover:bg-[url("/linkedin-fillh.png")]`,
       alter : "Linkedin icon"
       
     },
     {
-      link: "https://instagram.com/abdul_lahi246?igshid=MzNlNGNkZWQ4Mg==",
+      link: "https://www.instagram.com/kennyx55/",
       ima1 : `bg-[url("/instagram-line.png")]`,
       ima2 : `hover:bg-[url("/instagram-lineh.png")]`,
       alter : "Instagram icon"
-      
-    },
-    {
-      link: "https://codepen.io/Intelligence247-the-flexboxer",
-      ima1 : `bg-[url("/codepen-line.png")]`,
-      ima2 : `hover:bg-[url("/codepen-lineh.png")]`,
-      alter : "Codepen icon"
       
     },
   ]
@@ -59,9 +52,9 @@ const Socios = () => {
             <p></p>
             </div>
             <div className={styles.soicioAccountsR}>
-           <a href="mailto:Uthmanabdullahi2020@gmail.com?subject=Hi%20Abdullahi&body=" target='_blank' rel="noopener noreferrer"><span
+           <a href="mailto:abubakarkehinde88@gmail.com?subject=Hi%20Kehinde&body=" target='_blank' rel="noopener noreferrer"><span
           x
-           > Uthmanabdullahi2020@gmail.com</span></a>
+           > abubakarkehinde@gmail.com</span></a>
            <p></p>
         </div>
         </div>

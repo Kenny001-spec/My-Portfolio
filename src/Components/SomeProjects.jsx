@@ -8,7 +8,6 @@ const SomeProjects = () => {
   return (
     <div className={styles.somprojectW} id="work">
       <Headings
-        num={"03."}
         text={"Some of my projects"}
         position={"start"}
         width={"w-0"}
