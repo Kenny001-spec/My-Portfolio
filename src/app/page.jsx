@@ -34,24 +34,12 @@ export default function Home() {
   
   <Nav/>
 <PopUp/>
-{/* <div className='w-full fixed h-screen '> */}
-{/* <motion.div 
-className='w-full fixed h-screen'
-drag
-//  dragControls={controls}
- dragListener={true}
- dragConstraints={{left: 20, right: 0, bottom: 0, top:200,}}
- >
- <p className='bg fixed bg-primary1 bg-opacity-90 text-white text-xl w-20 h-20 rounded-full flex justify-center items-center'>Drag me</p>
-</motion.div> */}
-{/* </div> */}
+
 <main>
   <div className="Wrapper">
     <Intro/>
   <About/>
   <Expertise/>
-  <SomeProjects/>
-  <OtherProject/>
   <Contact/>
   <footer className='w-full text-center mt-[8rem] mb-6 flex flex-col lg:gap-0  space-y-10'>
   <Socios/>
@@ -59,7 +47,7 @@ drag
     
   </div>
     <p
-     className='hover:text-primary1 text-[13px] cursor-pointer'> <a href="https://github.com/intelligence247" target='_blank' rel="noopener noreferrer"npm>Designed & Built by Usman Abdullahi</a></p>
+     className='hover:text-primary1 text-[13px] cursor-pointer'> <a href="https://github.com/Kenny001-spec" target='_blank' rel="noopener noreferrer"npm>Designed & Built by Kehinde Abubakar</a></p>
   </footer>
   </div>
 </main>
