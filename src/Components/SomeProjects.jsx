@@ -26,8 +26,8 @@ const SomeProjects = () => {
           top={"top-[28%]"}
         />
         <Eachproject
-          img={"/Short3.png"}
-          name={"Weather App"}
+
+          name={""}
           description={
             "This is a weather app that gives users the opportunity to search for any city or country in the world and get the forcast for the next five days. The interval can be daily or 3hours. It can also access the location of the user and give the forcast of that city."
           }
@@ -37,8 +37,7 @@ const SomeProjects = () => {
           lang4={"API"}
           lang5={"TailWindCss"}
           flex_Dir={"lg:flex-row-reverse flex-col-reverse"}
-          live={"https://phenomenal-sunshine-547717.netlify.app/"}
-          github={"https://github.com/Intelligence247/Weather_Forcast_App"}
+          github={"https://github.com/Kenny001-spec"}
           top={"top-[28%]"}
         />
 
