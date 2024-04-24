@@ -7,29 +7,22 @@ import Eachproject from "./Eachproject";
 const SomeProjects = () => {
   return (
     <div className={styles.somprojectW} id="work">
-      <Headings
-        text={"Some of my projects"}
-        position={"start"}
-        width={"w-0"}
-      />
+      <Headings text={"Some of my projects"} position={"start"} width={"w-0"} />
       <div className="h-auto w-full flex flex-col lg:space-y-20 space-y-10 ">
         <Eachproject
-          img={"/rolex.png"}
-          name={"Rolex Wristwatch"}
+          img={"/omnifood.png"}
+          name={"Omnifood"}
           description={
-            "I used this project to practice my frontEnd skills, I built the whole structure with HTML/CSS and JavaScript, Using JavaScript loop to create multiple element in HTML, and reduces the HTML code a lot."
+            "I used this project to practice my frontEnd skills, I built the whole structure with HTML/CSS and JavaScript."
           }
           abs_pos={"right-[2rem]"}
           text_pos={"text-right"}
           lang1={"Html"}
           lang2={"CSS"}
-          lang3={"Vanilla Js"}
-          lang4={"Netlify"}
-          lang5={""}
+          lang3={"Javascript"}
           end={"justify-end"}
           flex_Dir={"lg:flex-row flex-col-reverse"}
-          live={"https://visionary-cactus-89f6e7.netlify.app/"}
-          github={"https://github.com/Intelligence247/rolexWristWatch"}
+          github={"https://github.com/Kenny001-spec"}
           top={"top-[28%]"}
         />
         <Eachproject
