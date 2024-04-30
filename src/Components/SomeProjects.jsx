@@ -58,8 +58,8 @@ const SomeProjects = () => {
         />
 
         <Eachproject
-          img={"/getlinked.jpg"}
-          name={"GetLinked Challenge"}
+          img={""}
+          name={""}
           description={
             ""
           }

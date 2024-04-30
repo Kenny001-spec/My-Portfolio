@@ -48,15 +48,7 @@ const Socios = () => {
                    </a>
                 ))
               }
-            
-            <p></p>
             </div>
-            <div className={styles.soicioAccountsR}>
-           <a href="mailto:abubakarkehinde88@gmail.com?subject=Hi%20Kehinde&body=" target='_blank' rel="noopener noreferrer"><span
-          x
-           > abubakarkehinde@gmail.com</span></a>
-           <p></p>
-        </div>
         </div>
        
         
