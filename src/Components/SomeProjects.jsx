@@ -29,35 +29,31 @@ const SomeProjects = () => {
 
           name={""}
           description={
-            "This is a weather app that gives users the opportunity to search for any city or country in the world and get the forcast for the next five days. The interval can be daily or 3hours. It can also access the location of the user and give the forcast of that city."
+            ""
           }
           text_pos={"text-left"}
           lang1={"React.js"}
           lang3={"Chart.js"}
           lang4={"API"}
-          lang5={"TailWindCss"}
           flex_Dir={"lg:flex-row-reverse flex-col-reverse"}
           github={"https://github.com/Kenny001-spec"}
           top={"top-[28%]"}
         />
 
         <Eachproject
-          img={"/webOpt.png"}
-          name={"Web Optimization"}
+          img={""}
+          name={""}
           description={
-            "WebOpt is a dynamic web application developed for Startup to enhance user experience and engagement. By leveraging modern front-end technologies and responsive design, the project aimed to provide seamless access and optimal usability across devices. This project was Implemented in collaboration with other developers, which I worked on the whole FrontEnd"
+            ""
           }
           abs_pos={"right-[2rem]"}
           text_pos={"text-right"}
           lang1={"Html"}
           lang2={"CSS"}
-          lang3={"Vanilla Js"}
-          lang4={"Netlify"}
           lang5={""}
           end={"justify-end"}
           flex_Dir={"lg:flex-row flex-col-reverse"}
-          live={"https://webopt.netlify.app/"}
-          github={"https://github.com/Intelligence247/webopt"}
+          github={"https://github.com/Kenny001-spec"}
           top={"top-[20%]"}
         />
 
@@ -65,20 +61,15 @@ const SomeProjects = () => {
           img={"/getlinked.jpg"}
           name={"GetLinked Challenge"}
           description={
-            "I participated in a three days hackathon with over 5000 other developers across the globe. We worked alongside designers and backend developers thereby implementing an eye-cacthing, responsive and dynamic website."
+            ""
           }
           text_pos={"text-left"}
           lang1={"React.js"}
-          lang3={"Axios"}
-          lang4={"API"}
-          lang5={"TailWindCss"}
           flex_Dir={"lg:flex-row-reverse flex-col-reverse"}
-          live={"https://transcendent-manatee-0cd606.netlify.app/"}
-          github={"https://github.com/Intelligence247/getLinkedCodeChallenge"}
+          github={"https://github.com/Kenny001-spec"}
           top={"top-[28%]"}
         />
       </div>
-      {/* <p className={styles.learnMore}></p> */}
     </div>
   );
 };
