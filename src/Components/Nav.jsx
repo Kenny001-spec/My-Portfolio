@@ -69,7 +69,8 @@ export default function Nav() {
           </div>
         ))}
         <a
-          href="https://drive.google.com/file/d/1aNvDRa2Wjm0NWd0I37-iVYY7KIeNwp_v/view?usp=sharing"
+        // The PDF of my Resume letter will be pasted here.
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >

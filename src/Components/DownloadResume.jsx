@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 const DownloadResume = () => {
   const handleDownload = () => {
     // Replace 'resume.pdf' with the actual file name and extension of your resume
-    const fileURL = "/resume.pdf";
+    const fileURL = "/";
 
     fetch(fileURL)
       .then((response) => response.blob())
