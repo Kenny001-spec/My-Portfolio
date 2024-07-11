@@ -26,10 +26,10 @@ const SomeProjects = () => {
           top={"top-[28%]"}
         />
         <Eachproject
-
-          name={""}
+        img={"/homeFlex.png"}
+          name={"HomeFlex"}
           description={
-            ""
+            "This Project is a decentralized Application, it was used to practice my Smart contract skills, I built the whole structure with React,Nodejs and a smart contract"
           }
           text_pos={"text-left"}
           lang1={"React.js"}
