@@ -69,7 +69,7 @@ export default function Nav() {
           </div>
         ))}
         <a
-        // The PDF of my Resume letter will be pasted here.
+        // The PDF of my Resume latter will be pasted here
           href=""
           target="_blank"
           rel="noopener noreferrer"
