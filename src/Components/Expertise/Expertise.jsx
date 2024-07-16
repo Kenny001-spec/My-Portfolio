@@ -68,6 +68,7 @@ const Expertise = () => {
       img: `/expMedia/tail2.png`,
       skillName: "TAILWINDCSS",
     },
+  
   ];
   return (
     <div className={styles.ExpertiseW} id="expertise">
